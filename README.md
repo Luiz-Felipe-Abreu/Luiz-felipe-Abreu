@@ -76,6 +76,13 @@
 </div>
 
 ---
+<h2 align="left">Contribution Snake</h2>
+
+![snake gif](https://github.com/Luiz-felipe-Abreu/Luiz-felipe-Abreu/blob/output/github-contribution-grid-snake.svg)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Luiz-felipe-Abreu/Luiz-felipe-Abreu?style=for-the-badge)
+
+
+---
 
 ## 📫 Onde me encontrar
 
