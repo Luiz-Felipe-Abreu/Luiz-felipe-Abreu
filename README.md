@@ -76,14 +76,15 @@
 </div>
 
 ---
-<h2 align="left">Contribution Snake</h2>
+<h2 align="left">Commits</h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Luiz-felipe-Abreu/Luiz-felipe-Abreu/blob/output/github-contribution-grid-snake-dark.svg" />
   <img alt="snake animation" src="https://github.com/Luiz-felipe-Abreu/Luiz-felipe-Abreu/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Luiz-felipe-Abreu/Luiz-felipe-Abreu?style=for-the-badge)
+![GitHub User's Commit Count](https://github-readme-streak-stats.herokuapp.com/?user=Luiz-felipe-Abreu&theme=tokyonight&hide_border=true)
+
 
 
 
