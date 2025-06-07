@@ -83,11 +83,6 @@
   <img alt="snake animation" src="https://github.com/Luiz-felipe-Abreu/Luiz-felipe-Abreu/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-![GitHub User's Commit Count](https://github-readme-streak-stats.herokuapp.com/?user=Luiz-felipe-Abreu&theme=tokyonight&hide_border=true)
-
-
-
-
 ---
 
 ## 📫 Onde me encontrar
