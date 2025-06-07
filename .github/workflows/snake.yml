@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Executa todo dia à meia-noite
+    - cron: "0 0 * * *" # Executa diariamente à meia-noite
   push:
     branches:
       - main
@@ -15,14 +15,17 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Gerar animação da cobrinha
+      - name: Gerar animação da cobra
         uses: Platane/snk@v3
         with:
-          github_user_name: Luiz-felipe-Abreu
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publicar no GitHub Pages (branch output)
+      - name: Publicar no branch 'output'
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
